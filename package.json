@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build:mn": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON localization/build_mn_module.mjs",
+    "check:mn": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON localization/test_mn.mjs",
+    "test:mn:browser": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON localization/test_mn_browser.mjs",
+    "test:mn:header": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON localization/test_mn_header.mjs"
+  },
   "dependencies": {
     "puppeteer": "^25.16.0",
     "puppeteer-core": "^25.16.0"

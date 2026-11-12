@@ -1,0 +1,36 @@
+/* Match the shared UI font, with fallbacks for Mongolian Cyrillic glyphs. */
+html[lang="mn"] {
+  --mn-font: Iosevka, "Segoe UI", "Noto Sans", Arial, sans-serif;
+  font-family: var(--mn-font);
+}
+html[lang="mn"] body,
+html[lang="mn"] button,
+html[lang="mn"] input,
+html[lang="mn"] select,
+html[lang="mn"] textarea {
+  font-family: var(--mn-font);
+}
+html[lang="mn"] .sidebar .panel-title {
+  font-size: 19px;
+}
+html[lang="mn"] .overview > .panel-head .panel-title {
+  font-size: 17px;
+}
+
+/* Reserve the controls' width; let the brand yield space on smaller screens. */
+html[lang="mn"].is-stacked .brand {
+  flex: 1 1 0;
+  overflow: hidden;
+}
+html[lang="mn"].is-stacked .brand-text {
+  min-width: 0;
+}
+html[lang="mn"].is-stacked .brand-text h1,
+html[lang="mn"].is-stacked .brand-text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+html[lang="mn"] .lang,
+html[lang="mn"] .theme-toggle {
+  flex-shrink: 0;
+}

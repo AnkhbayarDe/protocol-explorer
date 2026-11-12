@@ -47,8 +47,9 @@ This fork significantly expands the scope and capabilities of the original explo
 - Deep inspection across all 4 OSI/TCP-IP layers (Ethernet, IPv4, TCP/UDP, Application).
 - Formatted hex dumps and decoded header details for educational analysis.
 
-### 5. 🌍 Full Multilingual Localization (15 Languages)
-- Fully translated into all 15 supported languages: **Persian (فارسی)**, **English**, **Arabic (العربية)**, **Spanish (Español)**, **French (Français)**, **German (Deutsch)**, **Turkish (Türkçe)**, **Portuguese (Português)**, **Indonesian (Bahasa Indonesia)**, **Japanese (日本語)**, **Simplified Chinese (简体中文)**, **Traditional Chinese (繁體中文)**, **Korean (한국어)**, **Hindi (हिन्दी)**, and **Hebrew (עברית)**.
+### 5. 🌍 Multilingual Localization (16 Languages)
+- Language options: **Mongolian (Монгол)**, **Persian (فارسی)**, **English**, **Arabic (العربية)**, **Spanish (Español)**, **French (Français)**, **German (Deutsch)**, **Turkish (Türkçe)**, **Portuguese (Português)**, **Indonesian (Bahasa Indonesia)**, **Japanese (日本語)**, **Simplified Chinese (简体中文)**, **Traditional Chinese (繁體中文)**, **Korean (한국어)**, **Hindi (हिन्दी)**, and **Hebrew (עברית)**.
+- Select **Монгол** in the language menu for Mongolian Cyrillic. The selection persists after reloading. See [Mongolian localization maintenance](localization/MONGOLIAN.md) for translation sources and checks.
 
 ---
 
